@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/cristobalschlaubitz/.oh-my-zsh"
+export ZSH="/Users/komondi/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,14 +117,14 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=’red’
 ## cd ~/Documents/Codeworks ##
 
 ## getting python environment PIPENV in terminal ##
-#export PATH="/Users/cristobalschlaubitz/Library/Python/3.7/lib/python/site-packages:$PATH"
+#export PATH="/Users/komondi/Library/Python/3.7/lib/python/site-packages:$PATH"
 
 ##pip packages Bin
 #export PATH="~/Library/Python/3.7/bin:$PATH"
-#export PYTHONPATH="${PYTHONPATH}:/Users/cristobalschlaubitz/Library/Python/3.7/bin"
+#export PYTHONPATH="${PYTHONPATH}:/Users/komondi/Library/Python/3.7/bin"
 
 ##Jupyter command
-#alias jupyter='/Users/cristobalschlaubitz/Library/Python/3.7/bin/jupyter'
+#alias jupyter='/Users/komondi/Library/Python/3.7/bin/jupyter'
 
 
 ## Including cxscripts : ICU4C : yarn in path
@@ -135,3 +135,7 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=’red’
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+autoload bashcompinit && bashcompinit
+
+export alias ll="ls -l"

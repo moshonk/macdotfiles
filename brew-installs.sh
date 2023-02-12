@@ -16,11 +16,11 @@ brew upgrade
 BREW_PREFIX=$(brew --prefix)
 
 #Tools
-brew tap mongodb/brew
-brew install mongodb-community
+#brew tap mongodb/brew
+#brew install mongodb-community
 
 brew install wget --with-iri
-brew install gmp
+#brew install gmp
 brew install grep
 brew install node
 
@@ -31,7 +31,7 @@ brew install github/gh/gh
 brew install zsh
 
 #Apps
-brew install --cask dropbox
+#brew install --cask dropbox
 brew install --cask firefox
 brew install --cask homebrew/cask-versions/firefox-nightly
 brew install --cask google-chrome
@@ -40,12 +40,15 @@ brew install --cask iterm2
 brew install --cask notion
 brew install --cask spotify
 brew install --cask vlc
-brew install --cask tower
+#brew install --cask tower
 brew install --cask visual-studio-code
 brew install --cask zoom
-brew install --cask karabiner-elements
+#brew install --cask karabiner-elements
 brew install --cask discord
 brew install --cask slack
+#brew install java
+brew install openjdk@8
+brew install openjdk@11
 
 # Remove outdated versions from the cellar.
 brew cleanup
