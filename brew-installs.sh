@@ -29,6 +29,9 @@ brew install git-lfs
 brew install github/gh/gh
 
 brew install zsh
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+brew install zsh-history-substring-search
 
 #Apps
 #brew install --cask dropbox
