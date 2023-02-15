@@ -50,7 +50,8 @@ brew install --cask zoom
 brew install --cask discord
 brew install --cask slack
 #brew install java
-brew install openjdk@8
+#brew install openjdk@8
+brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install openjdk@11
 
 # Remove outdated versions from the cellar.
